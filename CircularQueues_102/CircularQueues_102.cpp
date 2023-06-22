@@ -82,7 +82,7 @@ public:									//constructor
 		}
 		else {
 			// Jika FRONT_position > REAR_position, iterasi dari FRONT hingga akhir array
-			while (FRONT_position <= max - 1) {
+			while (FRONT_position <= max - 1) {							//operator
 				cout << queues_array[FRONT_position] << "	";
 				FRONT_position++;
 			}

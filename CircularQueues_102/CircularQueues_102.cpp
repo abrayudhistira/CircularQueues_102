@@ -35,7 +35,15 @@ public:									//constructor
 			else
 				REAR = REAR + 1;
 		}
+		queues_array[REAR] = num;
+	}
 
+	void remove() {		//method remove
+		
+		if (FRONT == -1) {
+			cout << "Queue Underflow\n";
+			return;
+		}
 	}
 };
 int main()

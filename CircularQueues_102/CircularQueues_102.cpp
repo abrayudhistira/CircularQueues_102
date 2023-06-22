@@ -86,10 +86,19 @@ public:									//constructor
 				cout << queues_array[FRONT_position] << "	";
 				FRONT_position++;
 			}
+			cout << endl;
 		}
 	}
 };
-int main()
-{
 
+int main() {				// main program
+	Queues q;
+	char ch;
+
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+			cout << "1. Implement insert operation" << endl;
+		}
+	}
 }

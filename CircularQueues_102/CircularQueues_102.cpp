@@ -67,6 +67,18 @@ public:									//constructor
 		//cek apakah antrian kosong
 		if (FRONT == -1) {
 			cout << "Queue is Empty\n";
+			return;
+		}
+
+		cout << "\nElement in the queue are...\n";
+
+		//jika FRONT_position <= REAR_position, iterasi dari FRONT hingga REAR
+		if (FRONT_position <= REAR_position) {
+			while (FRONT_position <= REAR_position) {
+				cout << queues_array[FRONT_position] << "	";
+				FRONT_position++;
+			}
+			cout << endl;
 		}
 
 	}

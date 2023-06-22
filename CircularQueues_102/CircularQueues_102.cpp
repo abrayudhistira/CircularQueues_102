@@ -5,7 +5,7 @@ class Queues {						//membuat class queues
 	int FRONT, REAR, max = 5;
 	int queues_array[5];
 
-public:
+public:									//constructor
 	Queues() {
 		FRONT = -1;
 		REAR = -1;
@@ -22,6 +22,9 @@ public:
 			cout << "\nQueue Overflow\n";
 			return;
 		}
+
+		//cek apakah antrian kosong
+
 	}
 };
 int main()

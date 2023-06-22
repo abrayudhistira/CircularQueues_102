@@ -3,7 +3,7 @@ using namespace std;
 
 class Queues {						//membuat class queues
 	int FRONT, REAR, max = 5;		//deklarasi front rear
-	int queues_array[5];
+	int queues_array[5];			//deklarasi array
 
 public:									//constructor
 	Queues() {
